@@ -1,0 +1,88 @@
+#word-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: calc(100% - 85px);
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+#word-ul::-webkit-scrollbar {
+  display: none;
+}
+
+#word-ul li {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: normal;
+}
+
+#word-ul.word {
+  font-weight: bold;
+  margin-right: 10px;
+  width: 120px;
+}
+
+#word-ul.translation {
+  color: #777;
+  margin-right: 10px;
+  width: 120px;
+}
+
+#word-ul.phonetic {
+  font-style: italic;
+  margin-right: 10px;
+  width: 120px;
+}
+
+#word-ul.usage {
+  margin-right: 10px;
+  width: 200px;
+}
+
+#word-ul.explain {
+  margin-right: 10px;
+  width: 300px;
+}
+
+#word-ul button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 120px;
+}
+
+#word-ul button:hover {
+  background-color: #45a049;
+}
+
+#word-ul audio {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #word-ul li {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  #word-ul.word,
+  #word-ul.translation,
+  #word-ul.phonetic,
+  #word-ul.usage,
+  #word-ul.explain {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #word-ul button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

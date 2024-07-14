@@ -1,0 +1,46 @@
+{
+  "title": "U4",
+  "words": [
+    {
+      "id": 1,
+      "word": "age",
+      "translation": "年龄",
+      "phonetic": "/eɪdʒ/",
+      "usage": "zyb_ai.age('1.jpg', 40)",
+      "explain": "获得对应年龄的人像图片"
+    },
+    {
+      "id": 2,
+      "word": "weather",
+      "translation": "天气, 气象",
+      "phonetic": "/ˈweðər/",
+      "usage": "zyb_ai.weather('北京')",
+      "explain": "查询指定地点的天气"
+    },
+    {
+      "id": 3,
+      "word": "pick",
+      "translation": "选择, 挑选",
+      "phonetic": "/pɪk/",
+      "usage": "zyb_tools.pick('城市')",
+      "explain": "使用可视化界面选择城市名"
+    },
+    {
+      "id": 4,
+      "word": "text",
+      "translation": "文本, 文章",
+      "phonetic": "/tɛkst/",
+      "usage": "zyb_sms.text(‘18612090919’,'北京')",
+      "explain": "发送天气提醒短信"
+    },
+    {
+      "id": 5,
+      "word": "share",
+      "translation": "分享, 共享",
+      "phonetic": "/ʃer/",
+      "usage": "zyb_sms.text(‘18612090919’,'谜语')",
+      "explain": "发送互动短信"
+    }
+  ]
+}
+

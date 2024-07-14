@@ -1,0 +1,37 @@
+{
+  "title": "U1",
+  "words": [
+    {
+      "id": 1,
+      "word": "import",
+      "translation": "导入",
+      "phonetic": "/ɪmɔːt/",
+      "usage": "import zyb_ai",
+      "explain": "导入模块"
+    },
+    {
+      "id": 2,
+      "word": "speak",
+      "translation": "发言、说话",
+      "phonetic": "/spiːk/",
+      "usage": "zyb_ai.speak('大家好', 1)",
+      "explain": "用特定音色说出指定内容"
+    },
+    {
+      "id": 3,
+      "word": "detect",
+      "translation": "发现、探测",
+      "phonetic": "/dɪˈtekt/",
+      "usage": "zyb_ai.detect('1.png')",
+      "explain": "识别图片中的人像"
+    },
+    {
+      "id": 4,
+      "word": "add",
+      "translation": "添加、增加",
+      "phonetic": "/æd/",
+      "usage": "zyb_ai.add('头顶', 1, 1.5)",
+      "explain": "在人像的指定位置添加装饰并设置大小"
+    }
+  ]
+}
