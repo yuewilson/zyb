@@ -1,0 +1,32 @@
+{
+  "title": "U2",
+  "words": [
+    {
+      "id": 1,
+      "word": "draw",
+      "translation": "画画、绘制",
+      "phonetic": "/drɔː/",
+      "usage": "zyb_draw.dangao(7, 2)",
+      "explain": "在贺卡指定位置增加贴图",
+      "imgurl": "draw.png"
+    },
+    {
+      "id": 2,
+      "word": "load",
+      "translation": "加载",
+      "phonetic": "/loʊd/",
+      "usage": "zyb_draw.load('1.jpg')",
+      "explain": "设置贺卡背景",
+      "imgurl": "load.png"
+    },
+    {
+      "id": 3,
+      "word": "write",
+      "translation": "写字、写作",
+      "phonetic": "/raɪt/",
+      "usage": "zyb_draw.write('生日快乐', 6)",
+      "explain": "在贺卡指定位置书写文字",
+      "imgurl": "write.png"
+    }
+  ]
+}
