@@ -39,6 +39,7 @@ const updateDisplay = (data) => {
     data.words.forEach((word) => {
         const li = document.createElement('li');
         li.innerHTML = `
+            ${word.imgurl ? `<img src="./img/${word.imgurl}" alt="${word.word}">` : ''}
             <span class="word">单词：${word.word}</span>
             <span class="translation">解释：${word.translation}</span>
             <span class="phonetic">音标：${word.phonetic}</span>
@@ -91,8 +92,22 @@ style.innerHTML = `
     .content ul li audio {
         display: none;
     }
+    .content ul li img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
 `;
 document.head.appendChild(style);
+
+
+
+
+
+
+
+
 
 
 /**
